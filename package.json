@@ -1,0 +1,24 @@
+{
+  "name": "simulcast-bwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murillo128/simulcast-bwe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murillo128/simulcast-bwe/issues"
+  },
+  "homepage": "https://github.com/murillo128/simulcast-bwe#readme",
+  "dependencies": {
+    "medooze-media-server": "^0",
+    "semantic-sdp": "^3",
+    "websocket": "^1.0.26"
+  }
+}
