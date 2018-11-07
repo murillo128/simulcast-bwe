@@ -205,9 +205,12 @@ function connect()
 				try {
 					sender.setParameters({
 						encodings:  [
-								{ rid: "a" , maxBitrate:4000},
-								{ rid: "b" , maxBitrate:700, scaleResolutionDownBy: 2.0 },
-								{ rid: "c" , maxBitrate:300, scaleDownResolutionBy: 4.0 }
+								//{ rid: "a" , maxBitrate:5000},
+								//{ rid: "b" , maxBitrate:5000, scaleResolutionDownBy: 2.0 },
+								//{ rid: "c" , maxBitrate:5000, scaleDownResolutionBy: 4.0 }
+								{ rid: "a" },
+								{ rid: "b" , scaleResolutionDownBy : 2.0 },
+								{ rid: "c" , scaleResolutionDownBy : 4.0 }
 							]
 					});
 				} catch (e) {

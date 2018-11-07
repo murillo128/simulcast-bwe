@@ -24,7 +24,7 @@ const options = {
 };
 
 //Enable debug
-MediaServer.enableDebug(true);
+MediaServer.enableDebug(false);
 MediaServer.enableUltraDebug(false);
 
 //Restrict port range
